@@ -1,14 +1,14 @@
 /* **************************Avatar popout modification******************* */
 
 /*Header container box*/
-.headerNormal-1l1Znk{
-   min-height: 400px;
+.headerNormal-1mX3KY{
+   min-height: 450px;
 }
 
 /* nickname positioning */
 .headerTop-2cWpdB {
     text-align: center;
-    min-height: 100px;
+    min-height: 150px;
     top: 300px;
     position: relative;
     padding-top: 3px;
@@ -31,14 +31,14 @@
 }
 
 
-.avatarPositionNormal-1CZUPk {
+.avatarPositionNormal-aZjAsn {
   top:0;
   padding:0;
   height:300px;
   width:100%;
 }
 
-.avatarWrapper-1-5NA0 {
+.avatarWrapper-3r9PdD {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -50,7 +50,7 @@
 }
 
 
-.avatarWrapper-1-5NA0 .wrapper-3t9DeA {
+.avatarWrapper-3r9PdD .wrapper-3t9DeA {
     position: relative;
     top: 0px;
     height: 300px !important;
@@ -58,7 +58,7 @@
     border: 0px;
 }
 
-.avatarHint-1E3LMl {
+.avatarHint-2A3RNb {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -67,7 +67,7 @@
 }
 
 
-.avatarHint-1E3LMl foreignObject {
+.avatarHint-2A3RNb foreignObject {
   mask: none !important;
 }
 
@@ -78,12 +78,12 @@
 }
 
 /*turns the avatar into a rectangle shape*/
-.avatarWrapper-1-5NA0 .wrapper-3t9DeA .mask-1l8v16 foreignObject {
+.avatarWrapper-3r9PdD .wrapper-3t9DeA .mask-1l8v16 foreignObject {
     mask: none !important;
 }
 
 /* Status bar below the avatar as a thin rectangle*/
-.avatarWrapper-1-5NA0 .mask-1l8v16 rect {
+.avatarWrapper-3r9PdD .mask-1l8v16 rect {
     x: 0; 
     y: 78;
     width: 80px;
@@ -91,7 +91,7 @@
     mask: none !important;
 }
 
-.headerText-2WJ44e {padding-bottom: 2px;}
+.headerText-15Q25Z {padding-bottom: 2px;}
 
 
 /*.activityUserPopout-2yItg2 activity-fViXj7*/
