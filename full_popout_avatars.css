@@ -94,4 +94,10 @@
 
 .headerText-15Q25Z {padding-bottom: 2px;}
 
-/*.activityUserPopout-2yItg2 activity-fViXj7*/
+/*.activityUserPopout-2yItg2 .activity-3v9l4T*/
+/*Activity panel placement so it doesn't overlap with the avatar*/
+.activity-3v9l4T {
+    position:absolute;
+    left:300px;
+    top:0px;
+}
