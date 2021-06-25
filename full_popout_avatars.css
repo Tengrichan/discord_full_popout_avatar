@@ -1,15 +1,23 @@
 /* **************************Avatar popout modification******************* */
 
-/*
-/*Header container box*/
-.headerNormal-1mX3KY {
-   min-height: 450px;
-}
 
+/*Body container box*/
+.body-3HBlXn {
+   min-height: 700px;
+   top:300px;
+   padding-top:5px;
+   overflow: auto !important;
+ }
+ 
+/*.customStatus-oN4ZZY  custom status class*/
+/*Positions the custom status to center*/
+.body-3HBlXn .customStatus-oN4ZZY{
+  text-align:center;
+}
 /* nickname positioning */
-.headerTop-2cWpdB {
+.headerTop-3vNv-a {
     text-align: center;
-    min-height: 150px;
+    min-height: 50px;
     top: 300px;
     position: relative;
     padding-top: 3px;
@@ -19,20 +27,21 @@
     background-color: #1c1f28;
 }
 
-/* hides badges*/
-.headerTop-2cWpdB .container-q03LZO {
+
+/* hides badges; OK*/ 
+.headerTop-3vNv-a .container-q03LZO {
     visibility: hidden !important;
 }
 
 /*hides banner*/
-.profileBanner-33-uE1 {
+.headerNormal-3KXFBt {
   height: 0px;
   padding: 0px;
   visibility: hidden !important;
 }
 
 
-.avatarPositionNormal-aZjAsn {
+.avatarWrapperNormal-26WQIb {
   top:0;
   padding:0;
   height:300px;
@@ -73,11 +82,12 @@
 }
 
 /*view profile text */
+/*
 .avatarHintInner-2kMTo4 {
     font-size: 0.5em;
     text-shadow: 1px 1px 3px black;
 }
-
+*/
 /*turns the avatar into a rectangle shape*/
 .avatarWrapper-3r9PdD .wrapper-3t9DeA .mask-1l8v16 foreignObject {
     mask: none !important;
@@ -92,14 +102,16 @@
     mask: none !important;
 }
 
-.headerText-15Q25Z {padding-bottom: 2px;}
+.headerText-1vVs-U {padding-bottom: 2px;}
 
-/*.activityUserPopout-2yItg2 .activity-3v9l4T*/
+/*.activityUserPopout-2yItg2 .activity-2INFPu*/
 /*Activity panel placement so it doesn't overlap with the avatar*/
-.activity-3v9l4T {
+/*
+.body-3HBlXn .activityUserPopout-2yItg2 .activity-2INFPu {
     position:absolute;
     left:300px;
     top:0px;
     background-color:  #1c1f28;
     padding-bottom: 16px;
 }
+*/
